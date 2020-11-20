@@ -1,17 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main2Activity">
 
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginBottom="107dp"
+        android:text="Yeni Üyemiz Olmak İster misiniz?"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <Button
+        android:id="@+id/button_yeniUye"
+        android:layout_width="139dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:onClick="yeniUyeEkranı"
+        android:text="Yeni üye"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="325dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        tools:layout_editor_absoluteY="491dp" />
+
+    <Button
+        android:id="@+id/button_giris"
+        android:layout_width="177dp"
+        android:layout_height="82dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="233dp"
+        android:onClick="girisEkranı"
+        android:text="Giriş"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="138dp"
+        android:layout_height="27dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="338dp"
+        android:text="Kayıtlı kullanıcı girişi"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:text="BURADA SESLİ YÖNLENDİRME DE EKLENECEK"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="36dp" />
+</RelativeLayout>

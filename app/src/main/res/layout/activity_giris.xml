@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GirisActivity">
+
+    <EditText
+        android:id="@+id/kullanıcıAdıText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="129dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Kullanıcı Adı" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginBottom="52dp"
+        android:text="parmak izi olabilir veya sesli asistan yine" />
+
+    <Button
+        android:id="@+id/button_girisYap"
+        android:layout_width="164dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="218dp"
+        android:text="Giriş Yap"
+        android:onClick="anaSayfaEkranı"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="193dp"
+        android:text="Şifrenizi Girin" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="103dp"
+        android:text="Kullanıcı giriş bilgileriniz" />
+</RelativeLayout>
