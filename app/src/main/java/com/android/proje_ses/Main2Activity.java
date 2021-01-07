@@ -11,14 +11,11 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.layout);
     }
-    public void girisEkranı(View view){
-        Intent intentGirisEkranı=new Intent(this,GirisActivity.class);
-        startActivity(intentGirisEkranı);
-    }
-    public void yeniUyeEkranı(View view){
+
+   /* public void yeniUyeEkranı(View view){
         Intent intentYeniUyeEkranı=new Intent(this,YeniUyeActivity.class);
         startActivity(intentYeniUyeEkranı);
-    }
+    }*/
 }
