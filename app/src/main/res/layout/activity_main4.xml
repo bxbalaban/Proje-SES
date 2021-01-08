@@ -32,6 +32,20 @@
         android:textColor="#FFFFFF"
         tools:text="Mesajlar" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="556dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="103dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
     <ImageView
         android:id="@+id/imageView4_bkisiler"
         android:layout_width="wrap_content"
@@ -53,24 +67,5 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="125dp"
         android:text="kişiler" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="417dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="138dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="149dp"
-        android:layout_marginBottom="-8dp"
-        app:srcCompat="@drawable/images" />
 
 </RelativeLayout>
